@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/vscode/Hotel%20Reservations%20Dataset/mlruns/467202117458369892/120c01ee3fe641f8a5cbeadad738459a/artifacts
+end_time: 1696589608549
+entry_point_name: ''
+experiment_id: '467202117458369892'
+lifecycle_stage: active
+run_id: 120c01ee3fe641f8a5cbeadad738459a
+run_name: valuable-rook-634
+run_uuid: 120c01ee3fe641f8a5cbeadad738459a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696589603532
+status: 3
+tags: []
+user_id: skyra

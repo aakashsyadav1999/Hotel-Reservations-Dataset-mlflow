@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/vscode/Hotel%20Reservations%20Dataset/mlruns/310628005421490799/0cde0163d35f44f798618046165fe8aa/artifacts
+end_time: 1696590648496
+entry_point_name: ''
+experiment_id: '310628005421490799'
+lifecycle_stage: active
+run_id: 0cde0163d35f44f798618046165fe8aa
+run_name: loud-bug-979
+run_uuid: 0cde0163d35f44f798618046165fe8aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696590645865
+status: 3
+tags: []
+user_id: skyra

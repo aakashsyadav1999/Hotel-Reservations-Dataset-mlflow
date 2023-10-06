@@ -1,0 +1,6 @@
+artifact_location: file:///d:/vscode/Hotel%20Reservations%20Dataset/mlruns/467202117458369892
+creation_time: 1696589603362
+experiment_id: '467202117458369892'
+last_update_time: 1696589603362
+lifecycle_stage: active
+name: basic_classifier
