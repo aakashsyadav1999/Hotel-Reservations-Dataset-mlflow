@@ -13,9 +13,9 @@ from dataclasses import dataclass
 
 @dataclass
 class DataIngestionConfig:
-    train_data_path:str=os.path.join("artifacts","train.csv")
-    test_data_path:str=os.path.join("artifacts","test.csv")
-    raw_data_path:str=os.path.join("artifacts","raw.csv")
+    train_data_path:str = os.path.join("artifacts","train.csv")
+    test_data_path:str = os.path.join("artifacts","test.csv")
+    raw_data_path:str = os.path.join("artifacts","raw.csv")
 
 class DataIngestion:
 
@@ -35,7 +35,7 @@ class DataIngestion:
             df.to_csv(self.ingestion_config.raw_data_path,
                       index = False, 
                       header=True)
-            train_set,test_set=train_test_split(df, 
+            train_set,test_set = train_test_split(df, 
                                                 test_size = 0.2, 
                                                 random_state=42)
             train_set.to_csv(self.ingestion_config.train_data_path, 
