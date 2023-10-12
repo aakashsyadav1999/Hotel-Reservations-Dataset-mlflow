@@ -54,7 +54,7 @@ class ModelTrainer:
                 "RandomForestClassifier":{
                    'n_estimators' : [100],
                 #    'n_jobs' : [-1],
-                   'max_features':[1,2,3],
+                   'max_features':[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],
                 #   'max_depth':[3, 4, 5, 6, 7, 9, 11],
                 #    'min_samples_split':[2,3]
                 }
