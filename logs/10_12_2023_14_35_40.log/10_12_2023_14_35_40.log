@@ -1,0 +1,7 @@
+[ 2023-10-12 14:35:41,116 ] 10 root - INFO - The execution has started
+[ 2023-10-12 14:35:41,202 ] 31 root - INFO - Reading CSV data
+[ 2023-10-12 14:35:41,506 ] 49 root - INFO - Data Ingestion is completed
+[ 2023-10-12 14:35:41,574 ] 101 root - INFO - Reading the train and test file
+[ 2023-10-12 14:35:41,574 ] 79 root - INFO - Categorical Columns:['type_of_meal_plan', 'room_type_reserved', 'market_segment_type']
+[ 2023-10-12 14:35:41,574 ] 80 root - INFO - Numerical Columns:['no_of_adults', 'no_of_children', 'no_of_weekend_nights', 'no_of_week_nights', 'required_car_parking_space', 'lead_time', 'arrival_year', 'arrival_month', 'arrival_date', 'repeated_guest', 'no_of_previous_cancellations', 'no_of_previous_bookings_not_canceled', 'avg_price_per_room', 'no_of_special_requests']
+[ 2023-10-12 14:35:41,579 ] 134 root - INFO - Applying Preprocessing on training and test dataframe

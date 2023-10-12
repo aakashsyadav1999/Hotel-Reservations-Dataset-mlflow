@@ -1,0 +1,4 @@
+[ 2023-10-12 15:00:11,009 ] 10 root - INFO - The execution has started
+[ 2023-10-12 15:00:11,099 ] 31 root - INFO - Reading CSV data
+[ 2023-10-12 15:00:11,391 ] 49 root - INFO - Data Ingestion is completed
+[ 2023-10-12 15:00:11,462 ] 99 root - INFO - Reading the train and test file
