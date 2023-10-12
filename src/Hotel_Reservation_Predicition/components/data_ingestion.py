@@ -26,6 +26,7 @@ class DataIngestion:
 
         try:
             df = pd.read_csv('notebook\data\Hotel Reservations.csv')
+            df['booking_status'] = df['booking_status'].replace({'Not_Canceled':1,'Canceled':0})
 
             logging.info("Reading CSV data")
 
