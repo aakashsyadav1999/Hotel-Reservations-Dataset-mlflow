@@ -15,7 +15,7 @@ To run my app on your local machine, do the following steps.
 
 ## Step 1 :
 
-I have written the Code with Python 3.7.7. If you don't have Python installed you can find it here.
+I have written the Code with Python 3.9.17. If you don't have Python installed you can find it here.
 If you are using a lower version of Python you can upgrade using the pip package, kindly ensure that you have the latest version of pip.
 
 ## Step 2 :
