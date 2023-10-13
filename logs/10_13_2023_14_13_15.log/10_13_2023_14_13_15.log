@@ -1,0 +1,61 @@
+[ 2023-10-13 14:13:16,060 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.26:5000
+[ 2023-10-13 14:13:16,060 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-10-13 14:13:22,547 ] 1414 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\vscode\Hotel Reservations Dataset\app.py", line 16, in index
+    return render_template('index.html')
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[ 2023-10-13 14:13:22,549 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:13:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-10-13 14:13:42,114 ] 1414 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\vscode\Hotel Reservations Dataset\app.py", line 16, in index
+    return render_template('index.html')
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\skyra\anaconda3\envs\sega\lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[ 2023-10-13 14:13:42,115 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:13:42] "[35m[1mGET / HTTP/1.1[0m" 500 -

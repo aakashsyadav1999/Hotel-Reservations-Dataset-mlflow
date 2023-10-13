@@ -1,0 +1,27 @@
+[ 2023-10-13 14:57:24,163 ] 40 root - INFO - Creating required directory: src\Hotel_Reservation_Predicition\__init__.pysrc\Hotel_Reservation_Predicition\components for the file __init__.py
+[ 2023-10-13 14:57:24,163 ] 45 root - INFO - Creating empty file: src\Hotel_Reservation_Predicition\__init__.pysrc\Hotel_Reservation_Predicition\components\__init__.py
+[ 2023-10-13 14:57:24,164 ] 40 root - INFO - Creating required directory: src\Hotel_Reservation_Predicition\components for the file data_ingestion.py
+[ 2023-10-13 14:57:24,164 ] 48 root - INFO - data_ingestion.py already exists
+[ 2023-10-13 14:57:24,164 ] 40 root - INFO - Creating required directory: src\Hotel_Reservation_Predicition\components for the file data_transformation.py
+[ 2023-10-13 14:57:24,164 ] 48 root - INFO - data_transformation.py already exists
+[ 2023-10-13 14:57:24,164 ] 40 root - INFO - Creating required directory: src\Hotel_Reservation_Predicition\components for the file model_tranier.py
+[ 2023-10-13 14:57:24,164 ] 48 root - INFO - model_tranier.py already exists
+[ 2023-10-13 14:57:24,165 ] 40 root - INFO - Creating required directory: src\Hotel_Reservation_Predicition\components for the file model_monitering.py
+[ 2023-10-13 14:57:24,165 ] 45 root - INFO - Creating empty file: src\Hotel_Reservation_Predicition\components\model_monitering.py
+[ 2023-10-13 14:57:24,165 ] 40 root - INFO - Creating required directory: src\Hotel_Reservation_Predicition\pipelines for the file __init__.py
+[ 2023-10-13 14:57:24,165 ] 45 root - INFO - Creating empty file: src\Hotel_Reservation_Predicition\pipelines\__init__.py
+[ 2023-10-13 14:57:24,165 ] 40 root - INFO - Creating required directory: src\Hotel_Reservation_Predicition\pipelines for the file training_pipeline.py
+[ 2023-10-13 14:57:24,165 ] 48 root - INFO - training_pipeline.py already exists
+[ 2023-10-13 14:57:24,166 ] 40 root - INFO - Creating required directory: src\Hotel_Reservation_Predicition\pipelines for the file prediction_pipeline.py
+[ 2023-10-13 14:57:24,166 ] 48 root - INFO - prediction_pipeline.py already exists
+[ 2023-10-13 14:57:24,166 ] 40 root - INFO - Creating required directory: src\Hotel_Reservation_Predicition for the file exception.py
+[ 2023-10-13 14:57:24,166 ] 48 root - INFO - exception.py already exists
+[ 2023-10-13 14:57:24,166 ] 40 root - INFO - Creating required directory: src\Hotel_Reservation_Predicition for the file logger.py
+[ 2023-10-13 14:57:24,166 ] 48 root - INFO - logger.py already exists
+[ 2023-10-13 14:57:24,166 ] 40 root - INFO - Creating required directory: src\Hotel_Reservation_Predicition for the file utils.py
+[ 2023-10-13 14:57:24,166 ] 48 root - INFO - utils.py already exists
+[ 2023-10-13 14:57:24,167 ] 45 root - INFO - Creating empty file: main.py
+[ 2023-10-13 14:57:24,167 ] 48 root - INFO - app.py already exists
+[ 2023-10-13 14:57:24,167 ] 45 root - INFO - Creating empty file: Dockerfile
+[ 2023-10-13 14:57:24,167 ] 48 root - INFO - requirements.txt already exists
+[ 2023-10-13 14:57:24,167 ] 40 root - INFO - Creating required directory: notebook for the file data

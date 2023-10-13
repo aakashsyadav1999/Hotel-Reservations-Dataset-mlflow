@@ -1,0 +1,13 @@
+[ 2023-10-13 14:20:13,119 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-10-13 14:20:13,123 ] 96 werkzeug - INFO -  * Debugger PIN: 749-641-894
+[ 2023-10-13 14:20:19,390 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:20:19] "GET / HTTP/1.1" 200 -
+[ 2023-10-13 14:21:31,961 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:21:31] "GET / HTTP/1.1" 200 -
+[ 2023-10-13 14:21:37,600 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:21:37] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-13 14:23:11,644 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:23:11] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2023-10-13 14:23:12,008 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:23:12] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-10-13 14:23:12,008 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:23:12] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-10-13 14:23:12,038 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:23:12] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-10-13 14:23:12,048 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:23:12] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-10-13 14:24:08,974 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:24:08] "GET /?__debugger__=yes&cmd=resource&f=less.png HTTP/1.1" 200 -
+[ 2023-10-13 14:24:08,974 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:24:08] "GET /?__debugger__=yes&cmd=resource&f=more.png HTTP/1.1" 200 -
+[ 2023-10-13 14:30:45,984 ] 96 werkzeug - INFO -  * Detected change in 'D:\\vscode\\Hotel Reservations Dataset\\src\\Hotel_Reservation_Predicition\\pipelines\\prediction_pipeline.py', reloading

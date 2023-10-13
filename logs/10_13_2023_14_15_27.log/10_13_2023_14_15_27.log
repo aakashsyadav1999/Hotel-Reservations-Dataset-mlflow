@@ -1,0 +1,8 @@
+[ 2023-10-13 14:15:27,677 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-10-13 14:15:27,681 ] 96 werkzeug - INFO -  * Debugger PIN: 749-641-894
+[ 2023-10-13 14:15:33,597 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:15:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-10-13 14:15:33,975 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:15:33] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-10-13 14:15:33,975 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:15:33] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-10-13 14:15:34,015 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:15:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-10-13 14:15:34,027 ] 96 werkzeug - INFO - 127.0.0.1 - - [13/Oct/2023 14:15:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-10-13 14:16:59,053 ] 96 werkzeug - INFO -  * Detected change in 'D:\\vscode\\Hotel Reservations Dataset\\app.py', reloading
