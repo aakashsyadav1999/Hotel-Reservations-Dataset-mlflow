@@ -40,11 +40,11 @@ Now we have done with the downloading of my whole project.
 
 After downloading the whole repo, get into the main folder by hit the following command in git bash for Windows OS users and Terminal for Linux OS users.
 
-cd Machine-Learning-Projects
+cd Hotel-Reservations-Dataset-mlflow
 
 ## Step 4 :
 
-Now we are going to install all the dependency libraries for this project. Before that you must have Python 3.7.7 and latest version of pip.
+Now we are going to install all the dependency libraries for this project. Before that you must have Python 3.9.17 and latest version of pip.
 
 To install all the dependency libraries in a single command, run the following command.
 
