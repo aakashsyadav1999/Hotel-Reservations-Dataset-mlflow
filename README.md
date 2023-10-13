@@ -66,4 +66,4 @@ To view my app, hit the following URL in any of the browser such as Chrome, Fire
 
 ## http://127.0.0.1:5000 - For welcome page
 
-##http://127.0.0.1:5000/predictdata - for prediction site
+## http://127.0.0.1:5000/predictdata - for prediction site
