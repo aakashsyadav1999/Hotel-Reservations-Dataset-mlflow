@@ -39,21 +39,31 @@ Now we have done with the downloading of my whole project.
 Step 3 :
 
 After downloading the whole repo, get into the main folder by hit the following command in git bash for Windows OS users and Terminal for Linux OS users.
+
 cd Machine-Learning-Projects
+
 Step 4 :
 
 Now we are going to install all the dependency libraries for this project. Before that you must have Python 3.7.7 and latest version of pip.
+
 To install all the dependency libraries in a single command, run the following command.
+
 pip install -r requirements.txt
+
 Step 5 :
 
 After installing all the dependency libraries, you are ready to run my app on your local machine.
+
 To launch my app on your local machine, hit the following command.
+
 python ml_projects.py
+
 Run
+
 Now you have successfully launched my app on your local machine.
 
 To view my app, hit the following URL in any of the browser such as Chrome, FireFox, etc..,
 
 http://127.0.0.1:5000 - For welcome page
+
 http://127.0.0.1:5000/predictdata - for prediction site
