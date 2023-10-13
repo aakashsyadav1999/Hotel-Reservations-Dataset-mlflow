@@ -1,0 +1,154 @@
+<html>
+<body>
+    <div class="login">
+       <h1>Hotel Customer Performance Indicator</h1>
+   
+       <form action="{{ url_for('predict_datapoint')}}" method="post">
+        <h1>
+            <legend>Hotel Booking Cancellation</legend>
+        </h1>
+        <div class="mb-3">
+            <label class="form-label">no_of_adults</label>
+            <input class="form-control" type="number" name="no_of_adults"
+                placeholder="no_of_adults" min='0' max='100' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">no_of_children</label>
+            <input class="form-control" type="number" name="no_of_children"
+                placeholder="no_of_children" min='0' max='100' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">no_of_weekend_nights</label>
+            <input class="form-control" type="number" name="no_of_weekend_nights"
+                placeholder="no_of_weekend_nights" min='0' max='100' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">no_of_week_nights</label>
+            <input class="form-control" type="number" name="no_of_week_nights"
+                placeholder="no_of_week_nights" min='0' max='100' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">type_of_meal_plan</label>
+            <select class="form-control" name="meal_plan" placeholder="type_of_meal_plan" required>
+                <option class="placeholder" selected disabled value="">type_of_meal_plan</option>
+                <option value="Meal Plan 1">
+                    Meal Plan 1
+                </option>
+                <option value="Meal Plan 2">
+                    Meal Plan 2
+                </option>
+                <option value="Meal Plan 3">
+                    Meal Plan 3
+                </option>
+                <option value="Not Selected">
+                    Not Selected
+                </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">required_car_parking_space</label>
+            <input class="form-control" type="number" name="required_car_parking_space"
+                placeholder="required_car_parking_space" min='0' max='100' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">room_type_reserved</label>
+            <select class="form-control" name="meal_plan" placeholder="room_type_reserved" required>
+                <option class="placeholder"room_type_reserved="">room_type_reserved</option>
+                <option value="Room_Type 1">
+                    Room_Type 1
+                </option>
+                <option value="Room_Type 2">
+                    Room_Type 2
+                </option>
+                <option value="Room_Type 3">
+                    Room_Type 3
+                </option>
+                <option value="Room_Type 4">
+                    Room_Type 4
+                </option>
+                <option value="Room_Type 5">
+                    Room_Type 5
+                </option>
+                <option value="Room_Type 6">
+                    Room_Type 6
+                </option>
+                <option value="Room_Type 7">
+                    Room_Type 7
+                </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">lead_time</label>
+            <input class="form-control" type="number" name="lead_time"
+                placeholder="lead_time" min='0' max='100' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">arrival_year</label>
+            <input class="form-control" type="number" name="arrival_year"
+                placeholder="arrival_year" min='2017' max='2023' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">arrival_month</label>
+            <input class="form-control" type="number" name="arrival_month"
+                placeholder="arrival_month" min='1' max='12' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">arrival_date</label>
+            <input class="form-control" type="number" name="arrival_date"
+                placeholder="arrival_date" min='1' max='31' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">market_segment_type</label>
+            <select class="form-control" name="market_segment_type" placeholder="market_segment_type" required>
+                <option class="placeholder"market_segment_type="">market_segment_type</option>
+                <option value="Offline">
+                    Offline
+                </option>
+                <option value="Online">
+                    Online
+                </option>
+                <option value="Corporate">
+                    Corporate
+                </option>
+                <option value="Aviation">
+                    Aviation
+                </option>
+                <option value="Complementary">
+                    Complementary
+                </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">repeated_guest</label>
+            <input class="form-control" type="number" name="repeated_guest"
+                placeholder="repeated_guest" min='0' max='100' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">no_of_previous_cancellations</label>
+            <input class="form-control" type="number" name="no_of_previous_cancellations"
+                placeholder="no_of_previous_cancellations" min='0' max='100' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">no_of_previous_bookings_not_canceled</label>
+            <input class="form-control" type="number" name="no_of_previous_bookings_not_canceled"
+                placeholder="no_of_previous_bookings_not_canceled" min='0' max='100' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">avg_price_per_room</label>
+            <input class="form-control" type="number" name="avg_price_per_room"
+                placeholder="avg_price_per_room" min='0' max='100' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">no_of_special_requests</label>
+            <input class="form-control" type="number" name="no_of_special_requests"
+                placeholder="no_of_special_requests" min='0' max='100' />
+        </div>
+        <div class="mb-3">
+            <input class="btn btn-primary" type="submit" value="Predict" required />
+        </div>
+    </form>
+    <h2>
+       THE  prediction is {{results}}
+    </h2>
+   <body>
+</html>
