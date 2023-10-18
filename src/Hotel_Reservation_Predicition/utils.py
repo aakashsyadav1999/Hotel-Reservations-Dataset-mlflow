@@ -3,7 +3,6 @@ import os
 import sys
 from src.Hotel_Reservation_Predicition.logger import logging
 from src.Hotel_Reservation_Predicition.exception import CustomException
-from dotenv import load_dotenv
 import pymysql
 import pickle
 from sklearn.model_selection import GridSearchCV
