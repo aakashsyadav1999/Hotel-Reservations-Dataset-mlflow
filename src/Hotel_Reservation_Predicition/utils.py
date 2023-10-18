@@ -3,7 +3,6 @@ import os
 import sys
 from src.Hotel_Reservation_Predicition.logger import logging
 from src.Hotel_Reservation_Predicition.exception import CustomException
-import pymysql
 import pickle
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import r2_score
